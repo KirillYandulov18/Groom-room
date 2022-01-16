@@ -1,0 +1,131 @@
+* {
+    margin: auto;
+}
+body{
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 1200px;
+    height: 150px;
+    background:white;
+    margin: auto;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 150px;
+}
+.header_logo{
+    margin-left:0;
+    color: rgb(4, 0, 255);
+}
+.header-menu {
+    display: flex;
+    list-style: none;
+    margin-right: 0;
+}
+.header-menu a{
+    text-decoration: none;
+    color:black;
+    margin-left: 15px;
+}
+.section {
+    width: 1200px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+}
+.left-container{
+    background: rgb(255, 255, 255);
+    width: 900px;
+    height: 350px;
+    margin-top: 100px;
+}
+.left-container h1{
+    margin-top: 200px;
+}
+.right-container{
+    position: relative;
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+}
+.rc-block{
+    position: absolute;
+    left: 116px;
+    width: 315px;
+    height: 325px;
+    background-color: #ffffff;
+    border: 1px solid #00000049;
+    border-radius: 12px;
+}
+.rc-block form{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 272px;
+    margin: 25px auto;
+}
+.rc-block h1{
+    font-size: 18px;
+}
+.rc-block article{
+    font-size: 14;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+}
+.rc-block input{
+    width: 246px;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    background-color: #f2f2f2;
+    padding-left: 14px;
+}
+#submit{
+    background-color: #6d79eb;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.our-jobs {
+    width: 1200px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.our-jobs img{
+    width: 300px;
+    height: 200px;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 12px;
+    font-size: 18px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.line-one{
+    display: flex;
+    flex-direction: row;
+}
+.line-two{
+    display: flex;
+    flex-direction: row;
+}
+.picture{
+    padding: 10px 0 10px 0;
+}
+.footer{
+    width: 1200px;
+    height: 150px
+}
+.footer article{
+    text-align: center;
+    color: rgb(119, 119, 119);
+}
